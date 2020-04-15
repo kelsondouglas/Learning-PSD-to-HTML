@@ -1,0 +1,147 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@300;400;700&display=swap');
+
+/* Estilos padrão */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/* Header */
+.header {
+    background: url(../img/Layer-34.png) no-repeat center;
+    background-size: cover;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 35px 0;
+}
+
+
+.menu ul{
+    display: flex;
+}
+
+.menu ul li a {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(225, 225, 225, 0.75);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 58px;
+}
+
+.menu ul li a:hover {
+    color: #fff;
+}
+
+.chamada {
+    display: flex;
+    flex-direction: column;
+    margin-top: 90px;
+}
+
+.titulo h1{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 65px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.paragrafo {
+    margin:40px 0px;
+}
+
+.paragrafo p {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+}
+
+.btn {
+    text-align: center;
+    align-self: center;
+    background-color: #e84545;
+    width: 200px;
+    padding: 15px 40px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 90px;
+
+}
+
+.btn:hover {
+    background-color: #b52e2e;
+
+}
+/* Seção de beneficios */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    width: 25%;
+    margin: 4%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+.box h3 {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Media Query do Header */
+@media (max-width: 850px) {
+    header {
+        flex-direction: column;
+    }
+
+    .menu ul{
+        display: block;
+    }
+
+    .menu ul li {
+        margin: 5px;
+    }
+
+    .menu ul li a {
+        margin: 0;
+    }
+}
+
+
