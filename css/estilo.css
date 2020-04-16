@@ -212,24 +212,19 @@ header {
     border-radius: 2px;
 }
 
-/* Media Querys */
-@media (max-width: 850px) {
-    header {
-        flex-direction: column;
-    }
-
-    .menu ul{
-        display: block;
-    }
-
-    .menu ul li {
-        margin: 5px;
-    }
-
-    .menu ul li a {
-        margin: 0;
-    }
+.fa-facebook-f:hover {
+    background-color: #3b5998;
 }
+
+.fa-twitter:hover {
+    background-color:  #00aced;
+}
+
+.fa-linkedin:hover{
+    background-color: #0976b4;
+}
+
+/* Seção Slide */
 
 .slide {
     position: relative;
@@ -274,4 +269,44 @@ blockquote {
     line-height: 21px;
     margin-top: 35px;
     text-transform: uppercase;
+}
+
+/* Seção Download  */
+
+.download {
+    text-align: center;
+}
+
+.download h2 {
+    font-weight: 400;
+    line-height: 21px;
+    margin-top: 100px;
+}
+
+.download p{
+    font-size: 13px;
+    text-transform: uppercase;
+    line-height: 21px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+
+/* Media Querys */
+@media (max-width: 850px) {
+    header {
+        flex-direction: column;
+    }
+
+    .menu ul{
+        display: block;
+    }
+
+    .menu ul li {
+        margin: 5px;
+    }
+
+    .menu ul li a {
+        margin: 0;
+    }
 }
