@@ -275,12 +275,14 @@ blockquote {
 
 .download {
     text-align: center;
+    min-height: 300px;
+    padding: 95px 0;
 }
 
 .download h2 {
     font-weight: 400;
     line-height: 21px;
-    margin-top: 100px;
+
 }
 
 .download p{
@@ -291,6 +293,61 @@ blockquote {
     margin: 20px 0;
 }
 
+.download .btn-download{
+    background-color: #e84545;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 13px 85px;
+    border-radius: 5px;
+}
+
+/* Rodapé */
+footer {
+    background-color: #313454;
+    padding: 70px 0;
+    color: white;
+
+}
+
+.flex-footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.location {
+    width: 170px;
+    text-align: center;
+}
+
+.socials {
+    width: 170px;
+    text-align: center;
+}
+
+.about {
+    width: 330px;
+    text-align: center;
+}
+
+footer h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+footer p, footer address {
+    opacity: .5;
+}
+
+.socials .icons .fab{
+    color: white;
+    border: white 2px solid;
+    padding: 10px 15px;
+    font-size: 20px;
+}
 
 /* Media Querys */
 @media (max-width: 850px) {
